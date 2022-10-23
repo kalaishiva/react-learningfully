@@ -2,8 +2,8 @@
 const Header = ({name, subject}) => {
   return (
     <>
-    <h1>Task Tracker</h1>
-    <h2>Gives the Name : {name}</h2>
+    <h1 style={Styling}>Task Tracker</h1>
+    <h2>Gives the default Name props : {name}</h2>
     <h2>Gives the Subject : {subject}</h2>
     </>
   )
@@ -13,6 +13,12 @@ const Header = ({name, subject}) => {
 
 Header.defaultProps = {
     name: "Kalai"
+}
+
+//styling
+const Styling = {
+    color: 'blue',
+    fontSize: '40px'
 }
 
 export default Header
