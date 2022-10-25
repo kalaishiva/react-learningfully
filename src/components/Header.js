@@ -3,12 +3,12 @@ import Button from "./Button";
 
 
 
-const Header = ({title, onAdd}) => {
+const Header = ({title, onAdd, showAdd}) => {
 
   return (
     <header className="header">
     <h1 style={{color:"Brown"}}>{title}</h1>
-    <Button onClick={onAdd} text="Add" color="green" />
+    <Button onClick={onAdd} text={showAdd ? "Close" : "Add"} color={showAdd ? "red" : "Green"} />
 
    
     </header>
