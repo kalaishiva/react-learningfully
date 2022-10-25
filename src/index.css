@@ -48,7 +48,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 250vh 100vh;
-    background-color: #b598f0;
+    background-color: #f2faf9dc;
 }
 
 .container {
@@ -56,10 +56,10 @@ body {
     margin: 1px auto;
     overflow: auto;
     min-height: 300px;
-    border: 1px solid rgb(35, 69, 97);
-    padding: 1px;
+    border: 2px solid steelblue;
+    padding: 30px;
     border-radius: 5px;
-    background-color: #313133a4;
+    background-color: #d7f8ff77;
 }
 
 .header {
@@ -97,7 +97,7 @@ body {
 }
 
 .task {
-    background: #f4f4f431;
+    background: #fffffff8;
     margin: 5px;
     padding: 10px 20px;
     cursor: pointer;

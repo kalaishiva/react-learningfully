@@ -48,7 +48,7 @@ const toggleReminder = (id)=>{
 
 
   return (
-    <div className="App">
+    <div className="container">
         <Header 
         onAdd={()=>{setShowAddTask(!showAddTask)}}
         showAdd = {showAddTask}
